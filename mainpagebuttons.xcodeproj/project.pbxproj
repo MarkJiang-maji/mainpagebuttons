@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		AC60906B2AC6C643001F136A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60906A2AC6C643001F136A /* AppDelegate.swift */; };
 		AC60906D2AC6C643001F136A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60906C2AC6C643001F136A /* SceneDelegate.swift */; };
-		AC60906F2AC6C643001F136A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60906E2AC6C643001F136A /* ViewController.swift */; };
+		AC60906F2AC6C643001F136A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60906E2AC6C643001F136A /* HomeViewController.swift */; };
 		AC6090722AC6C643001F136A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6090702AC6C643001F136A /* Main.storyboard */; };
 		AC6090742AC6C648001F136A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC6090732AC6C648001F136A /* Assets.xcassets */; };
 		AC6090772AC6C648001F136A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6090752AC6C648001F136A /* LaunchScreen.storyboard */; };
+		AC6090842AC8063B001F136A /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6090832AC8063B001F136A /* ExploreViewController.swift */; };
+		AC6090862AC80678001F136A /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6090852AC80678001F136A /* NotificationViewController.swift */; };
+		AC60908A2AC806A1001F136A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6090892AC806A1001F136A /* ProfileViewController.swift */; };
+		AC60908C2AC806D3001F136A /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60908B2AC806D3001F136A /* CameraViewController.swift */; };
+		AC6090912AC80849001F136A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6090902AC80849001F136A /* SettingsViewController.swift */; };
+		AC6090932AC80860001F136A /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6090922AC80860001F136A /* MessagesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC6090672AC6C643001F136A /* mainpagebuttons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mainpagebuttons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC60906A2AC6C643001F136A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC60906C2AC6C643001F136A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC60906E2AC6C643001F136A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC60906E2AC6C643001F136A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AC6090712AC6C643001F136A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC6090732AC6C648001F136A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC6090762AC6C648001F136A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC6090782AC6C648001F136A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC6090832AC8063B001F136A /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		AC6090852AC80678001F136A /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		AC6090892AC806A1001F136A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		AC60908B2AC806D3001F136A /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		AC6090902AC80849001F136A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AC6090922AC80860001F136A /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,77 @@
 		AC6090692AC6C643001F136A /* mainpagebuttons */ = {
 			isa = PBXGroup;
 			children = (
-				AC60906A2AC6C643001F136A /* AppDelegate.swift */,
-				AC60906C2AC6C643001F136A /* SceneDelegate.swift */,
-				AC60906E2AC6C643001F136A /* ViewController.swift */,
-				AC6090702AC6C643001F136A /* Main.storyboard */,
-				AC6090732AC6C648001F136A /* Assets.xcassets */,
-				AC6090752AC6C648001F136A /* LaunchScreen.storyboard */,
+				AC6090812AC80495001F136A /* Resources */,
+				AC6090802AC7F5D5001F136A /* Models */,
+				AC60907F2AC7F5C6001F136A /* Views */,
+				AC60907E2AC7F5A8001F136A /* Controllers */,
 				AC6090782AC6C648001F136A /* Info.plist */,
 			);
 			path = mainpagebuttons;
+			sourceTree = "<group>";
+		};
+		AC60907E2AC7F5A8001F136A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC60908E2AC80794001F136A /* Others */,
+				AC60908D2AC806EF001F136A /* Core Tabs */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AC60907F2AC7F5C6001F136A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC6090732AC6C648001F136A /* Assets.xcassets */,
+				AC6090822AC804DE001F136A /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC6090802AC7F5D5001F136A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC6090812AC80495001F136A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC60906A2AC6C643001F136A /* AppDelegate.swift */,
+				AC60906C2AC6C643001F136A /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC6090822AC804DE001F136A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AC6090702AC6C643001F136A /* Main.storyboard */,
+				AC6090752AC6C648001F136A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AC60908D2AC806EF001F136A /* Core Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				AC60906E2AC6C643001F136A /* HomeViewController.swift */,
+				AC6090832AC8063B001F136A /* ExploreViewController.swift */,
+				AC60908B2AC806D3001F136A /* CameraViewController.swift */,
+				AC6090852AC80678001F136A /* NotificationViewController.swift */,
+				AC6090892AC806A1001F136A /* ProfileViewController.swift */,
+			);
+			path = "Core Tabs";
+			sourceTree = "<group>";
+		};
+		AC60908E2AC80794001F136A /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				AC6090902AC80849001F136A /* SettingsViewController.swift */,
+				AC6090922AC80860001F136A /* MessagesViewController.swift */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +212,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC60906F2AC6C643001F136A /* ViewController.swift in Sources */,
+				AC60908A2AC806A1001F136A /* ProfileViewController.swift in Sources */,
+				AC6090862AC80678001F136A /* NotificationViewController.swift in Sources */,
+				AC6090842AC8063B001F136A /* ExploreViewController.swift in Sources */,
+				AC6090932AC80860001F136A /* MessagesViewController.swift in Sources */,
+				AC60906F2AC6C643001F136A /* HomeViewController.swift in Sources */,
+				AC60908C2AC806D3001F136A /* CameraViewController.swift in Sources */,
 				AC60906B2AC6C643001F136A /* AppDelegate.swift in Sources */,
 				AC60906D2AC6C643001F136A /* SceneDelegate.swift in Sources */,
+				AC6090912AC80849001F136A /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
